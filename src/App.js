@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import GithubCard from './components/github-card'
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import GithubProfile from "./components/github-profile";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <GithubCard />
+        <GithubProfile />
       </div>
     );
   }
