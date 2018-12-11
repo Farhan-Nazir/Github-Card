@@ -56,7 +56,7 @@ class GithubProfile extends Component {
                   <Paper>
                     <Grid key={1} style={{ width: 250, height: 310 }}>
                       <Paper>Repositories</Paper>
-                      <br/>
+                      <br/> 
                       {`Public Repositories: ${data.public_repos}`}
                     </Grid>
                     
